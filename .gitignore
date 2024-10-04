@@ -1,3 +1,9 @@
+.*
+!.gitignore
+project/metals.sbt
+project/project/
+target/
+
 *.class
 *.log
 
