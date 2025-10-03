@@ -4,7 +4,7 @@ import Keys._
 object Programming1 {
   val COMMON = Seq(
       ThisBuild / version      := "0.1.0",
-      ThisBuild / organization := "jp.ac.titech.is.prg1",
+      ThisBuild / organization := "jp.ac.isct.is.prg1",
 
       Test / fork         := true,
       Test / connectInput := true,
@@ -16,7 +16,7 @@ object Programming1 {
     )
 
   val SCALA3 = Seq(
-      ThisBuild / scalaVersion := "3.2.2",                   // scalac コンパイラのバージョン
+      ThisBuild / scalaVersion := "3.7.2",                   // scalac コンパイラのバージョン
       Compile / scalaSource := baseDirectory.value / "src",  // Scala のソース置き場のディレクトリ
       //resourceDirectory := baseDirectory.value / "resources",
       scalacOptions := Seq(
